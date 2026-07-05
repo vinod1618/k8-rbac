@@ -18,6 +18,16 @@ data:
       userarn: arn:aws:iam::315281578625:user/ramesh
       username: ramesh
 
+    - groups:
+      - roboshop-trainee
+      userarn: arn:aws:iam::315281578625:user/john
+      username: john
+      
+    - groups:
+      - roboshop-trainee
+      userarn: arn:aws:iam::315281578625:user/rahim
+      username: rahim
+
 kind: ConfigMap
 metadata:
   creationTimestamp: "2026-07-05T04:29:24Z"
